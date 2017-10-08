@@ -21,4 +21,6 @@ collections:
   talks:
     output: true
     permalink: /talks/:path/
-
+  blog:
+    output: true
+    permanlink: /blog/:path/
