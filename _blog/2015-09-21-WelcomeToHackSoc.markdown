@@ -2,6 +2,7 @@
 layout: post
 title: Welcome to Hacksoc!
 author: Luke Geeson (HackSoc 2015-16 President)
+date: 2015-09-21
 
 feature-img: "img/post-photos/welcomehacksoc.png"
 ---
