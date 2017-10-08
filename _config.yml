@@ -3,7 +3,7 @@ title: LukeGeeson
 email: mail@lukegeeson.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal site.
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://lukegeeson.com" # the base hostname & protocol for your site
 enforce_ssl: lukegeeson.com
 twitter_username: lukegeeson
@@ -25,3 +25,17 @@ collections:
   blog:
     output: true
     permalink: /blog/:path/
+
+plugins_dir:
+  - jekyll-seo-tag
+
+gems: 
+  - jekyll
+  - github-pages
+  - jekyll-seo-tag
+
+social:
+  - links:
+    - https://www.twitter.com/lukegeeson
+    - https://uk.linkedin.com/in/lukegeesonhttps://uk.linkedin.com/in/lukegeeson
+    - https://github.com/lukeg101
