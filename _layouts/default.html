@@ -1,212 +1,34 @@
-<!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-	This template has been adapted for use on this personal site, all attribution is given where relevant under the terms of the CCA3.0 
-
-	Lastly, yo
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Luke Geeson</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-		<link rel=icon href="images/favicon.png" sizes="16x16" type="image/png">
-	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<div id="header">
+  {% include head.html %}
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#header">Home</a></li>
-								<li><a class="scrolly" href="#aboutme">About Me</a></li>
-								<li><a class="scrolly" href="#skills">Skills</a></li>
-								<li><a class="scrolly" href="#experience">Experience</a></li>
-								<li>
-									<a class="scrolly" href="#blog">Blog</a>
-									<ul>
-										<li><a href="#">Lorem ipsum dolor</a></li>
-										<li><a href="#">Phasellus consequat</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-									</ul>
+  <body>
 
-								</li>
-							</ul>
-						</nav>
+    {% include header.html %}
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1><a href="index.html" id="logo">Luke Geeson</a></h1>
-								<hr/>
-								<p>CS <a href="http://www.nottingham.ac.uk/computerscience/studywithus/computerscienceatnottingham.aspx">Student</a> and <a href="http://hacksocnotts.co.uk/about/">Hacker</a></p>
-								<p>United Kingdom</p>
-							</header>
-							<footer>
-								<a href="#banner" class="button circled scrolly fa fa-angle-double-down animated"></a>
-							</footer>
-						</div>
 
-				</div>
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+		<hr/>
+		<br/>
+		<span class="contacticon center">
+			<a href="mailto:mail@lukegeeson.com"><i class="fa fa-envelope-square"></i></a>
+			<a href="https://github.com/lukeg101" target="_blank"><i class="fa fa-github-square"></i></a>
+			<a href="https://uk.linkedin.com/in/lukegeeson" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+			<a href="https://www.twitter.com/lukegeeson" target="_blank"><i class="fa fa-twitter-square"></i></a>
+			<a href="https://plus.google.com/116664138029473615416" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+		</span>
 
-			{{content}}
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-
-							<!-- Tweets -->
-								<section class="4u 12u(mobile)">
-									<header>
-										<h2 class="icon fa-twitter circled"><span class="label">Tweets</span ></h2>
-									</header>
-									<ul class="divided">
-										<li>
-											<article class="tweet">
-												Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
-												<span class="timestamp">5 minutes ago</span>
-											</article>
-										</li>
-										<li>
-											<article class="tweet">
-												Hendrerit rutrum quisque.
-												<span class="timestamp">30 minutes ago</span>
-											</article>
-										</li>
-										<li>
-											<article class="tweet">
-												Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
-												<span class="timestamp">3 hours ago</span>
-											</article>
-										</li>
-										<li>
-											<article class="tweet">
-												Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
-												<span class="timestamp">5 hours ago</span>
-											</article>
-										</li>
-									</ul>
-								</section>
-
-							<!-- Posts -->
-								<section class="4u 12u(mobile)">
-									<header>
-										<h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
-									</header>
-									<ul class="divided">
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a href="#">Nisl fermentum integer</a></h3>
-												</header>
-												<span class="timestamp">3 hours ago</span>
-											</article>
-										</li>
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a href="#">Phasellus portitor lorem</a></h3>
-												</header>
-												<span class="timestamp">6 hours ago</span>
-											</article>
-										</li>
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a href="#">Magna tempus consequat</a></h3>
-												</header>
-												<span class="timestamp">Yesterday</span>
-											</article>
-										</li>
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a href="#">Feugiat lorem ipsum</a></h3>
-												</header>
-												<span class="timestamp">2 days ago</span>
-											</article>
-										</li>
-									</ul>
-								</section>
-
-							<!-- Photos -->
-								<section class="4u 12u(mobile)">
-									<header>
-										<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
-									</header>
-									<div class="row 25%">
-										<div class="6u">
-											<a href="#" class="image fit"><img src="/images/pic10.jpg" alt="" /></a>
-										</div>
-										<div class="6u$">
-											<a href="#" class="image fit"><img src="/images/pic11.jpg" alt="" /></a>
-										</div>
-										<div class="6u">
-											<a href="#" class="image fit"><img src="/images/pic12.jpg" alt="" /></a>
-										</div>
-										<div class="6u$">
-											<a href="#" class="image fit"><img src="/images/pic13.jpg" alt="" /></a>
-										</div>
-										<div class="6u">
-											<a href="#" class="image fit"><img src="/images/pic14.jpg" alt="" /></a>
-										</div>
-										<div class="6u$">
-											<a href="#" class="image fit"><img src="/images/pic15.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
-
-						</div>
-						<hr />
-						<div class="row">
-							<div class="12u">
-
-								<!-- Contact -->
-									<section class="contact">
-										<p>Feel free to email me if you have any <i>questions</i>, have any feedback on the website design or would like a copy of my <i>CV</i>, please email me using <i><a href="mailto:mail@lukegeeson.com">mail@lukegeeson.com</a></i></p>
-										<ul class="icons">
-											<li><a href="https://www.twitter.com/lukegeeson" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="https://uk.linkedin.com/in/lukegeeson" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-											<li><a href="https://github.com/lukeg101" class="icon fa-github"><span class="label">github</span></a></li>
-											<li><a href="mailto:mail@lukegeeson.com" class="icon fa-envelope"><span class="label">mail</span></a></li>
-											<li><a href="https://plus.google.com/116664138029473615416" class="icon fa-google-plus"><span class="label">googleplus</span></a></li>
-										</ul>
-									</section>
-
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>Design adapted from: <a href="http://html5up.net">HTML5 UP</a></li><li><i>accurate as of 7/10/2015</i></li>
-										</ul>
-									</div>
-
-							</div>
-
-						</div>
-					</div>
-				</div>
+		<div class="col three caption">
+			<p>Feel free to email me if you have any <i>questions</i> or would like a copy of my <i>CV</i>, please email me using <i><a href="mailto:mail@lukegeeson.com">mail@lukegeeson.com</a></i></p>
 		</div>
+      </div>
+    </div>
 
-		<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
-			<script src="/js/jquery.dropotron.min.js"></script>
-			<script src="/js/jquery.scrolly.min.js"></script>
-			<script src="/js/jquery.onvisible.min.js"></script>
-			<script src="/js/skel.min.js"></script>
-			<script src="/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="/js/main.js"></script>
+    {% include footer.html %}
 
-	</body>
+  </body>
+
 </html>
