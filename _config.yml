@@ -26,13 +26,11 @@ collections:
     output: true
     permalink: /blog/:path/
 
-plugins_dir:
-  - jekyll-seo-tag
-
-gems: 
+plugins: 
   - jekyll
   - github-pages
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 social:
   - links:
