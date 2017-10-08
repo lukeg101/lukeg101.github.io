@@ -1,7 +1,7 @@
 ---
 layout: post
-title: S-REPLS7 on Algebraic Effects for Calculating Compilers.
-date: 2017-09-22 17:00:00
+title: Algebraic Effects for Calculating Compilers@S-REPLS7.
+date: 2017-09-22 16:00:00
 ---
 <center><img class="row one top" src="/img/srepls7.jpg" alt="Calculating Compilers at S-REPLS7"></center>
 
