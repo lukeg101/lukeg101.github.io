@@ -19,6 +19,9 @@ paginate: 15
 paginate_path: "/blog/page:num/"
 
 collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
   talks:
     output: true
     permalink: /talks/:path/

@@ -3,7 +3,6 @@ layout: post
 title: HackSoc Elections and End of Year Summary!
 author: Luke Geeson
 date: 2016-03-11 18:00:00
-
 ---
 
 A copy of my blog post, original found [_here_](http://hacksocnotts.co.uk/2016/03/11/HackSoc-Elections-And-End-Of-Year-Summary.html
