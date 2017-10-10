@@ -27,6 +27,7 @@ collections:
     permalink: /blog/:path/
 
 plugins: 
+  - jekyll-paginate
   - jekyll
   - github-pages
   - jekyll-seo-tag
