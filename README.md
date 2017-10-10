@@ -1,5 +1,5 @@
 # My Personal Site
-A simple site providing people with some basic information about myself. Adapted from the folio theme found [_here_](http://liabogoev.com/-folio">Live Demo).
+A simple site providing people with some basic information about myself. Adapted from the folio theme found [_here_](http://liabogoev.com/-folio).
 
 <hr/>
 The MIT License (MIT)
