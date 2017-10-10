@@ -13,9 +13,7 @@ Slides on the hacking Philosophy. Why we hack, and why it might be interpreted w
 
 A recording of the conference can be found [_here_](https://www.youtube.com/watch?v=7dXWRDdjs-I&index=26&list=PLPDgudJ_VDUeTUV4ytl4WC4RTFZsZxJVB)
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7dXWRDdjs-I" frameborder="0" allowfullscreen></iframe>
-</center>
+{% youtube 7dXWRDdjs-I %}
 
 <center>
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr"><a href="https://twitter.com/LukeGeeson?ref_src=twsrc%5Etfw">@LukeGeeson</a> talking on the hack philosophy <a href="https://twitter.com/hashtag/HackconEU?src=hash&amp;ref_src=twsrc%5Etfw">#HackconEU</a> <a href="http://t.co/0odUwaTqYX">pic.twitter.com/0odUwaTqYX</a></p>&mdash; CompSoc Edinburgh (@CompSoc) <a href="https://twitter.com/CompSoc/status/637999804908478464?ref_src=twsrc%5Etfw">30 August 2015</a></blockquote>
