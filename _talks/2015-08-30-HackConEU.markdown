@@ -17,7 +17,8 @@ Slides on the hacking Philosophy. Why we hack, and why it might be interpreted w
 A recording of the conference can be found [_here_](https://www.youtube.com/watch?v=7dXWRDdjs-I&index=26&list=PLPDgudJ_VDUeTUV4ytl4WC4RTFZsZxJVB)
 
 <div class="img_row">
-	<iframe class="col three" width="560" height="315" src="https://www.youtube.com/embed/7dXWRDdjs-I" frameborder="0" allowfullscreen></iframe>
+	<center>
+	<iframe class="two" width="560" height="315" src="https://www.youtube.com/embed/7dXWRDdjs-I" frameborder="0" allowfullscreen></iframe></center>
 </div>
 <div class="col three caption">
 	The whole thing was recorded! In hindsight I winse a little.

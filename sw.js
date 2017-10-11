@@ -4,8 +4,6 @@ layout: null
 
 var urlsToCache = [];
 
-urlsToCache.push("{{site.url}}/img/prof_pic.jpg")
-
 // Cache blogs
 {% for blogs in site.blog %}
   urlsToCache.push("{{ blogs.url }}")
