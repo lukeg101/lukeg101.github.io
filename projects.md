@@ -12,10 +12,10 @@ description: A collection of some projects posts I have worked on.
         <p class="post-meta">{% if  project.description %}{{  project.description }}{% endif %}
         {% if project.git%}
         [<i><a href="{{ project.git }}" rel="noopener" aria-label="code">repo</a></i>]</p>
-        <p class="post-meta">{{ project.date | date: '%B, %Y' }}</p><br/>
+        <p class="post-meta">{{ project.date | date: '%B, %Y' }}</p>
         {% else %}
         </p>
-        <p class="post-meta">{{ project.date | date: '%B, %Y' }}</p><br/>
+        <p class="post-meta">{{ project.date | date: '%B, %Y' }}</p>
         {% endif %}
     </li>
 {%  endfor %}
