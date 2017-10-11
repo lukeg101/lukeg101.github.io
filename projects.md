@@ -5,47 +5,18 @@ title: projects
 description: A collection of some projects posts I have worked on.
 ---
 
-{% for project in site.projects %}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+<ul class="post-list">
+{% for project in site.projects reversed %}
+    <li>
+        <h2><a class="poem-title" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
+        <p class="post-meta">{% if  project.description %}{{  project.description }}{% endif %}
+        {% if project.git%}
+        [<i><a href="{{ project.git }}" rel="noopener" aria-label="code">repo</a></i>]</p>
+        <p class="post-meta">{{ project.date | date: '%B, %Y' }}</p><br/>
         {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-{% endif %}
-
-{% endfor %}
-.
-
-
+        </p>
+        <p class="post-meta">{{ project.date | date: '%B, %Y' }}</p><br/>
+        {% endif %}
+    </li>
+{%  endfor %}
+</ul>
