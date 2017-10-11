@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Scala, Spark and Functional Programming@HackSoc Weekly TechTalks.
-date: 2015-11-15 18:30:00
+date: 2015-11-15
 description: We do some FUN(ctional) programming to Spark enthusiasm, also BIG DATA!
 ---
 

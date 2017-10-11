@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Arduino for Greater Good!@HackSoc TechFest 2015.
-date: 2015-10-01 18:30:00
+date: 2015-10-01
 description: Arduino and Chill
 ---
 Introductory talk on the basics of Arduino C, the [Arduino](https://www.arduino.cc/) microcontroller and basic electronics for an audience of over 70! The talk is designed for somebody who has never done programming or hardware before. Talk done for the _HackSoc TechFest_ in October 2015.

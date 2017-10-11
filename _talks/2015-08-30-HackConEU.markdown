@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Hack Philosophy@HackCon EU 2015.
-date: 2015-08-30 15:00:00
+date: 2015-08-30
 description: Hacking is great but not everyone agrees
 ---
 Slides on the hacking Philosophy. Why we hack, and why it might be interpreted wrongly by the wider community. This talk was done for [_HackCon EU 2015_](http://hackcon.eu/), a conference for hackathon organisers.

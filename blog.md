@@ -10,7 +10,7 @@ description: A collection of some blog posts I have done.
     <li>
         <h2><a class="poem-title" href="{{ blogs.url | prepend: site.baseurl }}">{{ blogs.title }}</a></h2>
         <p class="post-meta">{% if  blogs.description %}{{  blogs.description }}{% endif %}</p>
-        <p class="post-meta">{{ blogs.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p class="post-meta">{{ blogs.date | date: '%B %-d, %Y' }}</p>
       </li>
 {% endfor %}
 </ul>

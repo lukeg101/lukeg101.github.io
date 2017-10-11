@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The TechFest Returns!@HackSoc TechFest  2015.
-date: 2016-01-01 18:00:00
+date: 2016-01-01
 description: Fool me once, shame on you. Fool me twice however
 ---
 

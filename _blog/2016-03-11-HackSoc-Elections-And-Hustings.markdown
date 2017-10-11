@@ -2,7 +2,7 @@
 layout: post
 title: HackSoc Elections and End of Year Summary!
 author: Luke Geeson
-date: 2016-03-11 18:00:00
+date: 2016-03-11
 description: It’s been a fantastic year for HackSoc. We’ve done so many things and had a great time! The elections are now complete and it’s time to hand over to a new committee…
 ---
 A copy of my blog post, original found [_here_](http://hacksocnotts.co.uk/2016/03/11/HackSoc-Elections-And-End-Of-Year-Summary.html

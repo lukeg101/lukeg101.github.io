@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HackSoc Hustings@HackSoc Hustings and Elections.
-date: 2016-03-08 18:30:00
+date: 2016-03-08
 description: Summary of the year and voting details.
 ---
 

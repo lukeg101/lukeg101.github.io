@@ -10,7 +10,7 @@ description: Some of my talks.
     <li>
         <h2><a class="poem-title" href="{{ talk.url | prepend: site.baseurl }}">{{ talk.title }}</a></h2>
         <p class="post-meta">{% if  talk.description %}{{  talk.description }}{% endif %}</p>
-        <p class="post-meta">{{ talk.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p class="post-meta">{{ talk.date | date: '%B %-d, %Y' }}</p>
       </li>
 {% endfor %}
 </ul>

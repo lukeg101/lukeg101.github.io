@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algebraic Effects for Calculating Compilers@S-REPLS7.
-date: 2017-09-22 16:00:00
+date: 2017-09-22
 description: Calculate the chances that this is a Haskell project.
 ---
 <div class="img_row">

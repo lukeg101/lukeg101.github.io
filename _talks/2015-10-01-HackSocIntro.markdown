@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction To HackSoc@HackSoc TechFest 2015.
-date: 2015-10-01 18:00:00
+date: 2015-10-01
 description: Welcoming a new generation of Hackers with the HackSoc TechFest!
 ---
 <div class="img_row">
