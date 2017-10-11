@@ -2,6 +2,7 @@
 layout: post
 title: The TechFest Returns!@HackSoc TechFest  2015.
 date: 2016-01-01 18:00:00
+description: Fool me once, shame on you. Fool me twice however
 ---
 
 Slides of a similar nature to the previous TechFest for the second _Tech Fest_ run in January 2016.

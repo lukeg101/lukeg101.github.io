@@ -2,8 +2,14 @@
 layout: post
 title: Algebraic Effects for Calculating Compilers@S-REPLS7.
 date: 2017-09-22 16:00:00
+description: Calculate the chances that this is a Haskell project.
 ---
-<center><img class="row one top" src="/img/srepls7.jpg" alt="Calculating Compilers at S-REPLS7"></center>
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/srepls7.jpg" alt="Calculating Compilers at S-REPLS7"/>
+</div>
+<div class="col three caption">
+	Calculating Compilers with Algebraic effects, here I start the derivation process that leads to compilers that are correct by construction.
+</div>
 
 Slides for the presentation of my masters project at the 7th South of England Regional Programming Languages Seminar [_S-REPLS7_](https://www2.warwick.ac.uk/fac/sci/dcs/events/srepls7/programme), hosted at the University of Warwick in September 2017.
 

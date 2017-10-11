@@ -3,14 +3,17 @@ layout: post
 title: HackSoc Elections and End of Year Summary!
 author: Luke Geeson
 date: 2016-03-11 18:00:00
+description: It’s been a fantastic year for HackSoc. We’ve done so many things and had a great time! The elections are now complete and it’s time to hand over to a new committee…
 ---
-
 A copy of my blog post, original found [_here_](http://hacksocnotts.co.uk/2016/03/11/HackSoc-Elections-And-End-Of-Year-Summary.html
 ).
 
-<center><img alt="Intro To Hacksoc" class="row one top" src="{{ site.baseurl }}/img/post-photos/hacnottsfood.jpg"></center>
+<div class="img_row">
+	<center>
+	<img class="row three" src="{{ site.baseurl }}/img/post-photos/hacnottsfood.jpg" alt="HackSoc Storms BrumHack2!" title="Intro to Hacksoc!"/>
+	</center>
+</div>
 
-It's been a fantastic year for HackSoc. We've done so many things and had a great time! The elections are now complete and it's time to hand over to a new committee...
 
 ### Summary of the year
 We've done alot this year, including attending many hackathons, running many tech talks from members and guests and engaging with the wider community. In summary we have done the following:
@@ -22,7 +25,14 @@ We've done alot this year, including attending many hackathons, running many tec
 + _TechTalks (from members and guests)_: We had talks from Goldman Sachs, Esendex, LifeSciences and many talks from members of the society on topics ranging from [Git](https://github.com/jamietanna/gittalk15), [the use of Microframeworks](https://github.com/sdh100shaun/hacksoc-microframeworks) to [DataMining with Spark](https://github.com/lukeg101/Talks/blob/master/IntroToScalaAndSparkTalk.pdf).
 + _HackNotts and WiT!_: Not to forget the elephant in the room, we ran 2 very successful events in the form of a large Hackathon [HackNotts](http://hacknotts.com/) and the [Women In Technology conference](http://2016.inspirewit.com/).
 
-![Jamie helping out at our local hack day!](/img/post-photos/jamieLHD.jpg){: .center-image}
+<div class="img_row">
+	<center>
+	<img class="two" src="{{ site.baseurl }}/img/post-photos/jamieLHD.jpg" alt="Jamie helping out at our local hack day!" title="Jamie helping out at our local hack day!"/>
+	</center>
+</div>
+<div class="col three caption">
+	Jamie helping out at our local hack day!
+</div>
 
 ---
 
@@ -36,8 +46,14 @@ We've done alot this year, including attending many hackathons, running many tec
 
 \*This is accurate as of _10/03/2016_
 
-![Tim and Gregor from MLH doing the live stream!](/img/post-photos/timgregorLHD.jpg){: .center-image}
-
+<div class="img_row">
+	<center>
+	<img class="two" src="{{ site.baseurl }}/img/post-photos/timgregorLHD.jpg" alt="Tim and Gregor from MLH doing the live stream!" title="Tim and Gregor from MLH doing the live stream!"/>
+	</center>
+</div>
+<div class="col three caption">
+	Tim and Gregor from MLH doing the live stream!
+</div>
 ---
 
 ### Constititution Changes
@@ -53,7 +69,14 @@ We've also voted on some changes to the constitution, these include:
 
 The new constitution can be found [here](https://github.com/HackSocNotts/constitution/blob/master/hacksocConstitution-09-03-2016.pdf)
 
-![Rich and his stickers!](/img/richLHD.jpg){: .center-image}
+<div class="img_row">
+	<center>
+	<img class="two" src="{{ site.baseurl }}/img/richLHD.jpg" alt="Rich and his stickers!" title="Rich and his stickers!"/>
+	</center>
+</div>
+<div class="col three caption">
+	Rich and his stickers!
+</div>
 
 ---
 
@@ -79,7 +102,14 @@ Thanks
 
 Luke Geeson, _Outgoing President_
 
-![So long, farewell, here's to another year!](/img/post-photos/lukeLHD.jpg){: .center-image}
+<div class="img_row">
+	<center>
+	<img class="two" src="{{ site.baseurl }}/img/post-photos/lukeLHD.jpg" alt="So long, farewell, here's to another year!" title="So long, farewell, here's to another year!"/>
+	</center>
+</div>
+<div class="col three caption">
+	So long, farewell, here's to another year!
+</div>
 
 ---
 
