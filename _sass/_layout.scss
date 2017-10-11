@@ -29,6 +29,17 @@ float: right;
 line-height: $nav-height;
 .page-link{
 line-height: $base-line-height;
+color: $nav-color;
+text-decoration: none;
+/*
+&:visited {
+    color: darken($brand-color, 15%); 
+}
+*/
+&:hover {
+    color: $theme-color;
+    text-decoration: none;
+}
         // Gaps between nav items, but not on the first one
 &:not(:first-child) {
 margin-left: 10px;
@@ -78,7 +89,7 @@ border-top: 1px solid $grey-color-dark;
 font-size: 10px;
 background-color: $grey-color-dark;
 padding: 2px;
-color: #aaa;
+color: $grey-color-light;
 position:fixed;
 left:0px;
 bottom:0px;

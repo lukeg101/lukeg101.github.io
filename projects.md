@@ -5,7 +5,6 @@ title: projects
 description: A collection of some projects posts I have worked on.
 ---
 
-<div class="col">
 {% for project in site.projects %}
 
 {% if project.redirect %}
@@ -47,7 +46,6 @@ description: A collection of some projects posts I have worked on.
 {% endif %}
 
 {% endfor %}
-</div>
 .
 
 

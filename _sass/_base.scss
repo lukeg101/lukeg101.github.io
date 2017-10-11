@@ -35,7 +35,8 @@ $dark_green: #228B22;
 
 $grey-color-dark: #333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$text-color:     #333333;
+$nav-color: #666;
 
 /* Set theme color *************************/
 $theme-color:   $dark_green;
@@ -123,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $text-color;
+    color: $theme-color;
     text-decoration: none;
     /*
     &:visited {
@@ -145,7 +146,19 @@ article a {
     }
 }
 
-
+.icon a {
+   color: $nav-color;
+    text-decoration: none;
+    /*
+    &:visited {
+        color: darken($brand-color, 15%); 
+    }
+    */
+    &:hover {
+        color: $theme-color;
+        text-decoration: none;
+   }
+}
 
 /**
  * Blockquotes
