@@ -1,7 +1,9 @@
-# My Personal Site
-A simple site providing people with some basic information about myself. Adapted from the folio theme found [_here_](http://liabogoev.com/-folio).
+My Personal Site
+=====================
 
-<hr/>
+My personal website. Static Progressive website generated using Jekyll, hosted on GitHub pages with Cloudflare SSL protection. Theme is an adapted version of the folio theme found [_here_](http://liabogoev.com/-folio) with the MIT license below. Site uses Service Workers to cache frequently used elements.
+
+=====================
 The MIT License (MIT)
 Copyright (c) 2015 Lia Bogoev
 
