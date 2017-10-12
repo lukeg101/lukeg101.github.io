@@ -142,14 +142,22 @@ text-align: center;
 .post-header {
 margin-bottom: $vertical-spacing-unit;
 }
+
+.post-header h2 {
+	color: $grey-color-dark;
+	margin-bottom: 0pt;
+}
+
 .post-title {
 font-size: 42px;
 letter-spacing: -1px;
 line-height: 1;
 @include media-query($on-laptop) {
 font-size: 36px;
+color:#000;
     }
 }
+
 .post-content {
 h2 {
 font-size: 42px;
@@ -161,13 +169,16 @@ h3 {
 font-size: 30px;
 @include media-query($on-laptop) {
 font-size: 22px;
+color:#000;
         }
+margin-top:20px;
+margin-bottom:10px;
     }
 h4 {
 font-size: 20px;
 @include media-query($on-laptop) {
 font-size: 18px;
-        }
+        }       
     }
 }
 .post-meta {
@@ -256,6 +267,7 @@ overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
 margin:auto;
+margin-bottom: 0px;
 }
 .col{ 
 width: 100%;
@@ -283,4 +295,5 @@ color: $caption_color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
+margin-top:10px; 
 }
