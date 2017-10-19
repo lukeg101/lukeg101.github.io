@@ -3,9 +3,11 @@ layout: post
 title: Introduction To HackSoc@HackSoc TechFest 2015.
 date: 2015-10-01
 description: Welcoming a new generation of Hackers with the HackSoc TechFest!
+imgpath: img/talks/HackSocIntro
 ---
+
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/tech_fest1.jpg" alt="Intro To Hacksoc" title="Intro to Hacksoc"/>
+	<img class="col three" src="{{ site.baseurl}}/{{ page.imgpath  }}/tech_fest1.jpg" alt="Intro To Hacksoc" title="Intro to Hacksoc"/>
 </div>
 <div class="col three caption">
 	I'm introducing HackSoc here, covering the society and that day's event, the TechFest. 
@@ -15,7 +17,7 @@ As the President of HackSoc at the University of Nottingham I Introduce new stud
 
 <div class="img_row">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/tech_fest3.jpg" alt="Intro To Hacksoc"/>
+	<img class="two" src="{{ site.baseurl}}/{{ page.imgpath  }}/tech_fest3.jpg" alt="Intro To Hacksoc"/>
 	</center>
 </div>
 <div class="col three caption">

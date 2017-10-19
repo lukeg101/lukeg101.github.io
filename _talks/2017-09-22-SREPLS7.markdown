@@ -3,9 +3,10 @@ layout: post
 title: Algebraic Effects for Calculating Compilers@S-REPLS7.
 date: 2017-09-22
 description: Calculate the chances that this is a Haskell project.
+imgpath: img/talks/srepls7
 ---
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/srepls7.jpg" alt="Calculating Compilers at S-REPLS7"/>
+	<img class="col three" src="{{ site.baseurl }}/{{ page.imgpath }}/srepls7.jpg" alt="Calculating Compilers at S-REPLS7"/>
 </div>
 <div class="col three caption">
 	Calculating Compilers with Algebraic effects, here I start the derivation process that leads to compilers that are correct by construction.

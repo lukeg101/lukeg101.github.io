@@ -4,7 +4,7 @@ title: lukegeeson.com - This Site
 description: Static Jekyll site hosted on GitHub pages
 date: 2017-10-11
 git: https://github.com/lukeg101/lukeg101.github.io
-tech: [Jekyll, Cramdown, GitHub Pages, Javascript]
+tech: [Jekyll, Kramdown, GitHub Pages, Javascript]
 ---
 
 This personal website was developed using Jekyll and hosted on GitHub pages. 

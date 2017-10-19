@@ -4,13 +4,14 @@ title: HackSoc Elections and End of Year Summary!
 author: Luke Geeson
 date: 2016-03-11
 description: It’s been a fantastic year for HackSoc. We’ve done so many things and had a great time! The elections are now complete and it’s time to hand over to a new committee…
+imgpath: img/blogs/EndOfYearSummary
 ---
 A copy of my blog post, original found [_here_](http://hacksocnotts.co.uk/2016/03/11/HackSoc-Elections-And-End-Of-Year-Summary.html
 ).
 
 <div class="img_row">
 	<center>
-	<img class="row three" src="{{ site.baseurl }}/img/post-photos/hacnottsfood.jpg" alt="HackSoc Storms BrumHack2!" title="Intro to Hacksoc!"/>
+	<img class="row three" src="{{ site.baseurl }}/{{ page.imgpath }}/hacknottsfood.jpg" alt="HackSoc Storms BrumHack2!" title="Intro to Hacksoc!"/>
 	</center>
 </div>
 
@@ -18,7 +19,7 @@ A copy of my blog post, original found [_here_](http://hacksocnotts.co.uk/2016/0
 ### Summary of the year
 We've done alot this year, including attending many hackathons, running many tech talks from members and guests and engaging with the wider community. In summary we have done the following:
 
-+ _Fresher's Fayre (2x) and Employability Street_: We attended freshers fair twice and an employability fair put on by the University in order to show people at university what we do as a society.
++ _Fresher's Fair (2x) and Employability Street_: We attended freshers fair twice and an employability fair put on by the University in order to show people at university what we do as a society.
 + _TechFest (2x)_: We ran two hybrid conference style events with tech talks and Pizza in order to engage with our members and see what sort of events they wanted us to put on this year.
 + _TechNottingham (many)_: We went to the monthly tech meetups with members of the nottingham tech community. 
 + _Intro to Python sessions (many)_: We ran very successful introduction to programming sessions which taught non-programmers the basics of Python.
@@ -27,7 +28,7 @@ We've done alot this year, including attending many hackathons, running many tec
 
 <div class="img_row">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/post-photos/jamieLHD.jpg" alt="Jamie helping out at our local hack day!" title="Jamie helping out at our local hack day!"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/jamieLHD.jpg" alt="Jamie helping out at our local hack day!" title="Jamie helping out at our local hack day!"/>
 	</center>
 </div>
 <div class="col three caption">
@@ -48,7 +49,7 @@ We've done alot this year, including attending many hackathons, running many tec
 
 <div class="img_row">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/post-photos/timgregorLHD.jpg" alt="Tim and Gregor from MLH doing the live stream!" title="Tim and Gregor from MLH doing the live stream!"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/timgregorLHD.jpg" alt="Tim and Gregor from MLH doing the live stream!" title="Tim and Gregor from MLH doing the live stream!"/>
 	</center>
 </div>
 <div class="col three caption">
@@ -71,7 +72,7 @@ The new constitution can be found [here](https://github.com/HackSocNotts/constit
 
 <div class="img_row">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/richLHD.jpg" alt="Rich and his stickers!" title="Rich and his stickers!"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/richLHD.jpg" alt="Rich and his stickers!" title="Rich and his stickers!"/>
 	</center>
 </div>
 <div class="col three caption">
@@ -104,7 +105,7 @@ Luke Geeson, _Outgoing President_
 
 <div class="img_row">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/post-photos/lukeLHD.jpg" alt="So long, farewell, here's to another year!" title="So long, farewell, here's to another year!"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/lukeLHD.jpg" alt="So long, farewell, here's to another year!" title="So long, farewell, here's to another year!"/>
 	</center>
 </div>
 <div class="col three caption">

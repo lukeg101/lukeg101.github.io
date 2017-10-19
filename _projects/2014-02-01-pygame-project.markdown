@@ -5,6 +5,7 @@ description: A 2D Space Invaders clone, with a twist
 date: 2014-02-1
 git: https://github.com/lukeg101/G51FSE-Pygame-Project
 tech: [Python, Pygame]
+imgpath: img/projects/LogicWars
 ---
 
 In this first year project we develop a 2D space shooter game. We were given the following synopsis:
@@ -15,7 +16,7 @@ Logic Wars implements many features of classic side­scrolling shoot ‘em up ga
 
 <div class="img_col">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/logicwars.png" alt="Overview of the game screen, taken from our project" title="Overview of the game screen, taken from our project"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/logicwars.png" alt="Overview of the game screen, taken from our project" title="Overview of the game screen, taken from our project"/>
 	</center>
 </div>
 <div class="col three caption">
@@ -26,7 +27,7 @@ This game combines these two areas in order to create a top-down shoot 'em up ga
 
 <div class="img_col">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/umlDiagram.png" alt="We followed the software engineering life cycle, including stages for requirements elicitation, system design, implementation, testing and review" title="We followed the software engineering life cycle, including stages for requirements elicitation, system design, implementation, testing and review"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/umlDiagram.png" alt="We followed the software engineering life cycle, including stages for requirements elicitation, system design, implementation, testing and review" title="We followed the software engineering life cycle, including stages for requirements elicitation, system design, implementation, testing and review"/>
 	</center>
 </div>
 <div class="col three caption">

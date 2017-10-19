@@ -4,11 +4,12 @@ title: Welcome to Hacksoc!
 author: Luke Geeson (HackSoc 2015-16 President)
 date: 2015-09-21
 description: HackSoc is the programming and technology society. Do you want to learn about tech, share ideas, and build cool software and hardware? well that's what we do! ...
+imgpath: img/blogs/WelcomeToHackSoc
 ---
 A copy of my blog post, original found [_here_](http://hacksocnotts.co.uk/2016/03/11/HackSoc-Elections-And-End-Of-Year-Summary.html).
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post-photos/welcome.png" alt="Welcome To Hacksoc" title="Welcome To Hacksoc"/>
+	<img class="col three" src="{{ site.baseurl }}/{{ page.imgpath }}/welcome.png" alt="Welcome To Hacksoc" title="Welcome To Hacksoc"/>
 </div>
 ### Hello Everyone!
 
@@ -32,7 +33,7 @@ A hackathon is a 24 hour long programming event. Hundreds of passionate students
 
 <div class="img_row">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/post-photos/brumhack.png" alt="HackSoc Storms BrumHack2!" title="HackSoc Storms BrumHack2!"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/brumhack.png" alt="HackSoc Storms BrumHack2!" title="HackSoc Storms BrumHack2!"/>
 	</center>
 </div>
 <div class="col three caption">
@@ -47,7 +48,7 @@ In fact, at my first hackathon I was worried about exactly this! I was worried t
 
 <div class="img_row">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/post-photos/studenthack14.png" alt="My first Hackathon at Studenthack2014!" title="HackSoc Storms BrumHack2!"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/studenthack14.png" alt="My first Hackathon at Studenthack2014!" title="HackSoc Storms BrumHack2!"/>
 	</center>
 </div>
 <div class="col three caption">

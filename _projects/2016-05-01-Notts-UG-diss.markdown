@@ -4,6 +4,7 @@ title: Objects as Controllers
 description: Undergraduate Dissertation, University of Nottingham
 date: 2016-05-01
 tech: [C++, Kinect2 Api, C#, OpenCV, LaTeX]
+imgpath: img/projects/ugdiss
 ---
 My undergraduate project was part of a larger research group in Nottingham in collaboration with Unilever. The project focused on developing a system using Computer Vision (using OpenCV) and a Microsoft Kinect (C++). 
 
@@ -11,7 +12,7 @@ Due to non-disclosure agreements pertaining to a patent I am unable to make the 
 
 <div class="img_col">
 	<center>
-	<img class="one" src="{{ site.baseurl }}/img/ugdissaward.jpeg" alt="Receiving awards for my undergraduate projects" title="Receiving awards for my undergraduate projects"/>
+	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/ugdissaward.jpeg" alt="Receiving awards for my undergraduate projects" title="Receiving awards for my undergraduate projects"/>
 	</center>
 </div>
 <div class="col three caption">

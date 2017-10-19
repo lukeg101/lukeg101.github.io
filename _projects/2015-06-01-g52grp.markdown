@@ -3,11 +3,22 @@ layout: post
 title: The Howling Commandos
 description: Second Year Group Project, University of Nottingham
 tech: [C++, Raspberry Pi, Bootstrap, DigitalOcean, HTML5, Javascript, Node.js, MySQL, PHP, JQuery]
+imgpath: img/projects/g52grp
 ---
 
 Whilst at Nottingham, I took part in a year-long group project in my second year. We were given a lego robot, rigged up to a raspberry pi and the following project synopsis:
 
 > Like for human babies, it takes a lot of time for a robot to learn what it sees. In this project, you will control the robot and build a system that will allow users from all over the world to help teach the robot what it sees. You will program the robot to move around in a small area and take pictures of its surroundings. These pictures are moderated by a human, and then uploaded to a website you must build for people to tag what's in the images to see. Once people have taught the robot all there is to see about an area, it will move to the next area.
+
+With our robotic friend:
+<div class="img_col">
+	<center>
+	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/robot.png" alt="Our group mascot" title="Our group mascot"/>
+	</center>
+</div>
+<div class="col three caption">
+	Our group mascot
+</div>
 
 In this project I was the Team Leader, Technical Lead, Robotics Engineer and Editor. We conducted the project as an agile scrum, maintaining an online scrumboard using Trello. As the technical lead I oversaw code changes in order to moderate code for stylistic and logical consistency. As the Robotics Engineer, I was responsible for Hardware Programming and Development of autonomous pseudo- random roaming algorithms for the robot (C++). I spoke about the robot on the popular youtube channel Computerphile:
 
@@ -33,7 +44,7 @@ Overall the project went very well! I could have delegated the roles better in h
 
 <div class="img_col">
 	<center>
-	<img class="two" src="{{ site.baseurl }}/img/grpgroup.jpg" alt="The group after presenting the project to the committee" title="The group after presenting the project to the committee"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/grpgroup.jpg" alt="The group after presenting the project to the committee" title="The group after presenting the project to the committee"/>
 	</center>
 </div>
 <div class="col three caption">

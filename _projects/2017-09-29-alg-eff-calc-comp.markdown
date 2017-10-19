@@ -5,6 +5,7 @@ description: Masters Thesis, University of Oxford
 date: 2017-08-29
 git: https://github.com/lukeg101/MScProjectPublic
 tech: [Haskell, LaTeX]
+imgpath: img/projects/algeffccc
 ---
 My Masters project combined the areas of [_calculating compilers_](http://www.cs.nott.ac.uk/~pszgmh/ccc.pdf) and [_algebraic effects_](http://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf) _a la carte_ in order to capture computational effects of compilers using algebraic handlers and thus fix correctness specifications when deriving compiler and virtual machine definitions.
 
@@ -14,7 +15,7 @@ I presented a summary of the work at the International Conference on Functional 
 
 <div class="img_col">
 	<center>
-	<img class="one" src="{{ site.baseurl }}/img/icfpsrcposter.jpg" alt="Me presenting at the ICFP Student Research Competition on the first day of ICFP" title="Me presenting at the ICFP Student Research Competition on the first day of ICFP"/>
+	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/icfpsrcposter.jpg" alt="Me presenting at the ICFP Student Research Competition on the first day of ICFP" title="Me presenting at the ICFP Student Research Competition on the first day of ICFP"/>
 	</center>
 </div>
 <div class="col three caption">
