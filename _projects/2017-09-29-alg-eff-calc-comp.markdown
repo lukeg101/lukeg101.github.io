@@ -4,6 +4,7 @@ title: Algebraic Effects for Calculating Compilers
 description: Masters Thesis, University of Oxford
 date: 2017-08-29
 git: https://github.com/lukeg101/MScProjectPublic
+tech: [Haskell, LaTeX]
 ---
 My Masters project combined the areas of [_calculating compilers_](http://www.cs.nott.ac.uk/~pszgmh/ccc.pdf) and [_algebraic effects_](http://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf) _a la carte_ in order to capture computational effects of compilers using algebraic handlers and thus fix correctness specifications when deriving compiler and virtual machine definitions.
 

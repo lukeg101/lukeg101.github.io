@@ -4,6 +4,7 @@ title: Logic Wars
 description: A 2D Space Invaders clone, with a twist
 date: 2014-02-1
 git: https://github.com/lukeg101/G51FSE-Pygame-Project
+tech: [Python, Pygame]
 ---
 
 In this first year project we develop a 2D space shooter game. We were given the following synopsis:

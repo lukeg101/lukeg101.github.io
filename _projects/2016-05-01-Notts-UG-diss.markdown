@@ -3,6 +3,7 @@ layout: post
 title: Objects as Controllers
 description: Undergraduate Dissertation, University of Nottingham
 date: 2016-05-01
+tech: [C++, Kinect2 Api, C#, OpenCV, LaTeX]
 ---
 My undergraduate project was part of a larger research group in Nottingham in collaboration with Unilever. The project focused on developing a system using Computer Vision (using OpenCV) and a Microsoft Kinect (C++). 
 
