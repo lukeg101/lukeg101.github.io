@@ -2,7 +2,7 @@
 layout: post
 title: The Howling Commandos
 description: Second Year Group Project, University of Nottingham
-tech: [C++, Raspberry Pi, Bootstrap]
+tech: [C++, Raspberry Pi, Bootstrap, DigitalOcean, HTML5, Javascript, Node.js, MySQL, PHP, JQuery]
 ---
 
 Whilst at Nottingham, I took part in a year-long group project in my second year. We were given a lego robot, rigged up to a raspberry pi and the following project synopsis:
