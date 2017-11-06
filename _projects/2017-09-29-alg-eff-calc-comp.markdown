@@ -23,5 +23,3 @@ I presented a summary of the work at the International Conference on Functional 
 </div>
 
 Later I presented at the 7th [_South of England Regional Programming Languages Seminar_](https://www2.warwick.ac.uk/fac/sci/dcs/events/srepls7/programme) (S-REPLS), hosted at the University of Warwick. More details can be found [_here_]({{site.url}}/talks/2017-09-22-SREPLS7/).
-
-I am now taking this work further and writing an academic white-paper with [_Nicolas Wu_](http://www.bris.ac.uk/engineering/people/nicolas-wu/index.html).
