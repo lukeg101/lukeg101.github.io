@@ -29,12 +29,15 @@ collections:
     output: true
     permalink: /blog/:path/
 
+future: true
+
 plugins: 
   - jekyll-paginate
   - jekyll
   - github-pages
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-gist
 
 social:
   - links:

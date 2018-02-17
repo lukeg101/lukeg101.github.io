@@ -4,6 +4,7 @@ title: Community is King at HackCon EU 2016!
 author: Luke Geeson
 date: 2016-09-11
 description: A blog about my experience at HackCon EU
+published: false
 ---
 
 Currently figuring out how to port this blog post from medium. 
