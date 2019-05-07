@@ -10,7 +10,7 @@ imgpath: img/blogs/Lplzoo
 
 <div class="img_row">
 	<center>
-	<img class="row three" src="{{ site.baseurl }}/{{ page.imgpath }}/lambdafish.jpg" alt="Is this Lam or Fish?" title="lambda fish"/>
+	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/lambdafish.jpg" alt="Is this Lam or Fish?" title="lambda fish"/>
 	</center>
 </div>
 
@@ -55,7 +55,7 @@ Submit a PR if there's something you want to add or fix! Bearing in mind a few t
 3. Ensure code has 100% [Haddock](https://www.haskell.org/haddock/) coverage. This helps to document things if ever we want to.
 4. Keep in mind the motivations above, this code is not meant to be advanced Haskell, but rather simple (for demonstration) so try not to use advanced technologies if you can.
 
-This is a work in progress so coverage of features may vary!
+This is a work in progress so coverage of features may vary! check out the project [issues](https://github.com/lukeg101/lplzoo/projects) for more information.
 
 ### Technologies
 
