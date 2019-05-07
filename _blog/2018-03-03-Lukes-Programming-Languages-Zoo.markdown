@@ -5,14 +5,20 @@ author: Luke Geeson
 date: 2018-03-03
 description: Fine-grain (Small Step) implementations of common lambda calculi in Haskell.
 published: true
-imgpath: img/blogs/lambdafish
+imgpath: img/blogs/Lplzoo
 ---
+
+<div class="img_row">
+	<center>
+	<img class="row three" src="{{ site.baseurl }}/{{ page.imgpath }}/lambdafish.jpg" alt="Is this Lam or Fish?" title="lambda fish"/>
+	</center>
+</div>
 
 In this blog I'll talk about how to implement and understand the foundations of semantics, type theory, and computation. I've implemented over 12 lambda calculi including their AST, parser, (basic), and [Repls](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) for each. This means you can take whiteboard examples of these calculi and run them. The functionality is also tested using [QuickCheck](http://hackage.haskell.org/package/QuickCheck).
 
 The code can be found [_here_](https://github.com/lukeg101/lplzoo/) with instructions to build and run them. 
 
-## Motivation
+### Motivation
 
 I've been studying the Foundations of Programming Languages, Semantics, and Type Theory. I decided to implement some of the common Lambda Calculi to solidify my understanding. 
 
@@ -24,7 +30,7 @@ The languages are written in Haskell and are intentionally simple. That is, they
 
 The intention here is to maximise your understanding of language design whilst minimising the need to understand Haskell. Of course it helps if you know it!
 
-## Languages
+### Languages
 
 1. [_ULC_](ULC/): Alonzo Church's [Untyped Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) (Church Style)
 2. [_SKI_](SKI/): Moses Schonfinkel's [SKI Combinator Calculus](https://en.wikipedia.org/wiki/SKI_combinator_calculus). In essence an (untyped) combinator calculus equivalent in [computational power](https://en.wikipedia.org/wiki/Turing_completeness) to ULC, but without abstraction.
@@ -42,7 +48,7 @@ The intention here is to maximise your understanding of language design whilst m
 
 See each [repo](https://github.com/lukeg101/lplzoo/) for details on installation/use.
 
-## Contributions
+### Contributions
 Submit a PR if there's something you want to add or fix! Bearing in mind a few things:
 1. Compile your code with `-W`, This catches any warnings. There shouldn't be any warnings 
 2. Use [hlint](http://hackage.haskell.org/package/hlint), to handle code linting and suggestions. Like wall, there should be no suggesstions for file `Foo.hs` when running `hlint Foo.hs`.
@@ -51,7 +57,7 @@ Submit a PR if there's something you want to add or fix! Bearing in mind a few t
 
 This is a work in progress so coverage of features may vary!
 
-## Technologies
+### Technologies
 
 1. Each language is designed using [_abstract data types_](https://stackoverflow.com/questions/10267084/what-is-adt-abstract-data-type) in Haskell. This is a natural fit for higher-order and recursive terms in functional languages. The AST for each file contains any equivalence, typing, reduction and substitution rules needed.
 2. The parser for each instance is based around [_monadic parser combinators_](https://en.wikipedia.org/wiki/Parser_combinator). The idea behind this is that we may compose parsers for several terms into a parser for all of them. The relationship between the left parser and the non-ambiguous grammars is thus a direct one.
