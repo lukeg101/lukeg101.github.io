@@ -14,7 +14,7 @@ imgpath: img/blogs/Lplzoo
 	</center>
 </div>
 
-In this blog I'll talk about how to implement and understand the foundations of semantics, type theory, and computation. I've implemented over 12 lambda calculi including their AST, parser, (basic), and [Repls](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) for each. This means you can take whiteboard examples of these calculi and run them. The functionality is also tested using [QuickCheck](http://hackage.haskell.org/package/QuickCheck).
+In this blog I'll talk about how to implement and understand the foundations of semantics, type theory, and computation. I've implemented over 12 lambda calculi including their AST, parser, and [Repls](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) for each. This means you can take whiteboard examples of these calculi and run them. The functionality is also tested using [QuickCheck](http://hackage.haskell.org/package/QuickCheck).
 
 The code can be found [_here_](https://github.com/lukeg101/lplzoo/) with instructions to build and run them. 
 
