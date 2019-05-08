@@ -13,6 +13,10 @@ imgpath: img/blogs/Lplzoo
 	<img class="two" src="{{ site.baseurl }}/{{ page.imgpath }}/lambdafish.jpg" alt="Is this Lam or Fish?" title="lambda fish"/>
 	</center>
 </div>
+<div class="col three caption">
+	lambda fish
+</div>
+
 
 In this blog I'll talk about how to implement and understand the foundations of semantics, type theory, and computation. I've implemented over 12 lambda calculi including their AST, parser, and [Repls](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) for each. This means you can take whiteboard examples of these calculi and run them. The functionality is also tested using [QuickCheck](http://hackage.haskell.org/package/QuickCheck).
 
@@ -30,21 +34,23 @@ The languages are written in Haskell and are intentionally simple. That is, they
 
 The intention here is to maximise your understanding of language design whilst minimising the need to understand Haskell. Of course it helps if you know it!
 
+The following list of language proceeds (roughly) in order of complexity of the lambda cube. We detour by some other seminal calculi, and if one is missing by all means please add it!
+
 ### Languages
 
-1. [_ULC_](ULC/): Alonzo Church's [Untyped Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) (Church Style)
-2. [_SKI_](SKI/): Moses Schonfinkel's [SKI Combinator Calculus](https://en.wikipedia.org/wiki/SKI_combinator_calculus). In essence an (untyped) combinator calculus equivalent in [computational power](https://en.wikipedia.org/wiki/Turing_completeness) to ULC, but without abstraction.
-3. [_STLC_](STLC/): Alonzo Church's [Simply-Typed Lambda Calculus](https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus) (Church) with one base type and function types
-4. [_SystemT_](SystemT/): Kurt Godel's [System T](https://en.wikipedia.org/wiki/Dialectica_interpretation). In essence the STLC with [Nat](https://wiki.haskell.org/Peano_numbers) swapped out for the base type and [primitive recursion](https://www.quora.com/What-is-primitive-recursion) on Nats.
-5. [_PCF_](PCF/): Gordon Plotkin's [Programming Computable Functions](http://www.cs.bham.ac.uk/~axj/pub/papers/Jung-2014-Teaching-denotational-semantics.pdf). In essence it's System T but using the [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Fixed_point_combinators_in_lambda_calculus) for general recursion instead of primitive.
-6. [_Mu_](Mu/): Michel Parigot's [Lambda-Mu](https://www.cs.ru.nl/~freek/courses/tt-2011/papers/parigot.pdf). In essence it's STLC with [continuations](https://en.wikipedia.org/wiki/Continuation) that don't rely on the reduction strategy used.
-7. [_SystemF_](SystemF/): John Reynolds' [System F](https://en.wikipedia.org/wiki/System_F). In essence it's STLC with [parametric polymorphism](https://en.wikipedia.org/wiki/Parametric_polymorphism) built in.
-8. [_SOL_](SOL/): John Mitchell and Gordon Plotkin's SOL. In essence it's System F but with [existential types](https://medium.com/@stephenebly/an-introduction-to-existential-types-25c130ba61a4) made explicit.
-8. [_Cata_](Cata/): In essence it's STLC with [inductive types](https://en.wikipedia.org/wiki/Inductive_type). 
-9. [_Ana_](Ana/): In essence it's STLC with [coinductive types](https://en.wikipedia.org/wiki/Coinduction).
-10. [_Sub_](Sub/): Benjamin Pierce's Lambda Calculus with Subtypes. In essence it's STLC with generalised records and [subtype polymorphism](https://en.wikipedia.org/wiki/Subtyping).
-11. [_Omega_](Omega/): Renardel de Lavalette's [L(or λω)](https://core.ac.uk/download/pdf/82628447.pdf). In essence it's STLC with kinding and [type-operators](https://en.wikipedia.org/wiki/Type_constructor).
-12. [_FOmega_](FOmega/): Jean Yves-Girard's [FOmega](https://en.wikipedia.org/wiki/Lambda_cube). In essence it's SystemF + Omega which enables higher-order polymorphism.
+1. [_ULC_](https://github.com/lukeg101/lplzoo/tree/master/ULC): Alonzo Church's [Untyped Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) (Church Style)
+2. [_SKI_](https://github.com/lukeg101/lplzoo/tree/master/SKI/): Moses Schonfinkel's [SKI Combinator Calculus](https://en.wikipedia.org/wiki/SKI_combinator_calculus). In essence an (untyped) combinator calculus equivalent in [computational power](https://en.wikipedia.org/wiki/Turing_completeness) to ULC, but without abstraction.
+3. [_STLC_](https://github.com/lukeg101/lplzoo/tree/master/STLC/): Alonzo Church's [Simply-Typed Lambda Calculus](https://en.wikipedia.org/wiki/Simply_typed_lambda_calculus) (Church) with one base type and function types
+4. [_SystemT_](https://github.com/lukeg101/lplzoo/tree/master/SystemT/): Kurt Godel's [System T](https://en.wikipedia.org/wiki/Dialectica_interpretation). In essence the STLC with [Nat](https://wiki.haskell.org/Peano_numbers) swapped out for the base type and [primitive recursion](https://www.quora.com/What-is-primitive-recursion) on Nats.
+5. [_PCF_](https://github.com/lukeg101/lplzoo/tree/master/PCF/): Gordon Plotkin's [Programming Computable Functions](http://www.cs.bham.ac.uk/~axj/pub/papers/Jung-2014-Teaching-denotational-semantics.pdf). In essence it's System T but using the [Y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Fixed_point_combinators_in_lambda_calculus) for general recursion instead of primitive.
+6. [_Mu_](https://github.com/lukeg101/lplzoo/tree/master/Mu/): Michel Parigot's [Lambda-Mu](https://www.cs.ru.nl/~freek/courses/tt-2011/papers/parigot.pdf). In essence it's STLC with [continuations](https://en.wikipedia.org/wiki/Continuation) that don't rely on the reduction strategy used.
+7. [_SystemF_](https://github.com/lukeg101/lplzoo/tree/master/SystemF/): John Reynolds' [System F](https://en.wikipedia.org/wiki/System_F). In essence it's STLC with [parametric polymorphism](https://en.wikipedia.org/wiki/Parametric_polymorphism) built in.
+8. [_SOL_](https://github.com/lukeg101/lplzoo/tree/master/SOL/): John Mitchell and Gordon Plotkin's SOL. In essence it's System F but with [existential types](https://medium.com/@stephenebly/an-introduction-to-existential-types-25c130ba61a4) made explicit.
+8. [_Cata_](https://github.com/lukeg101/lplzoo/tree/master/Cata/): In essence it's STLC with [inductive types](https://en.wikipedia.org/wiki/Inductive_type). 
+9. [_Ana_](https://github.com/lukeg101/lplzoo/tree/master/Ana/): In essence it's STLC with [coinductive types](https://en.wikipedia.org/wiki/Coinduction).
+10. [_Sub_](https://github.com/lukeg101/lplzoo/tree/master/Sub/): Benjamin Pierce's Lambda Calculus with Subtypes. In essence it's STLC with generalised records and [subtype polymorphism](https://en.wikipedia.org/wiki/Subtyping).
+11. [_Omega_](https://github.com/lukeg101/lplzoo/tree/master/Omega/): Renardel de Lavalette's [L(or λω)](https://core.ac.uk/download/pdf/82628447.pdf). In essence it's STLC with kinding and [type-operators](https://en.wikipedia.org/wiki/Type_constructor).
+12. [_FOmega_](https://github.com/lukeg101/lplzoo/tree/master/FOmega/): Jean Yves-Girard's [FOmega](https://en.wikipedia.org/wiki/Lambda_cube). In essence it's SystemF + Omega which enables higher-order polymorphism.
 
 See each [repo](https://github.com/lukeg101/lplzoo/) for details on installation/use.
 
@@ -52,10 +58,10 @@ See each [repo](https://github.com/lukeg101/lplzoo/) for details on installation
 Submit a PR if there's something you want to add or fix! Bearing in mind a few things:
 1. Compile your code with `-W`, This catches any warnings. There shouldn't be any warnings 
 2. Use [hlint](http://hackage.haskell.org/package/hlint), to handle code linting and suggestions. Like wall, there should be no suggesstions for file `Foo.hs` when running `hlint Foo.hs`.
-3. Ensure code has 100% [Haddock](https://www.haskell.org/haddock/) coverage. This helps to document things if ever we want to.
+3. Ensure code has 100% [_Haddock_](https://www.haskell.org/haddock/) coverage. This helps to document things if ever we want to.
 4. Keep in mind the motivations above, this code is not meant to be advanced Haskell, but rather simple (for demonstration) so try not to use advanced technologies if you can.
 
-This is a work in progress so coverage of features may vary! check out the project [issues](https://github.com/lukeg101/lplzoo/projects) for more information.
+This is a work in progress so coverage of features may vary! check out the project [_issues_](https://github.com/lukeg101/lplzoo/projects) for more information.
 
 ### Technologies
 
