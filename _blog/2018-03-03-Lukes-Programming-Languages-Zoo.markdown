@@ -34,7 +34,7 @@ The languages are written in Haskell and are intentionally simple. That is, they
 
 The intention here is to maximise your understanding of language design whilst minimising the need to understand Haskell. Of course it helps if you know it!
 
-The following list of language proceeds (roughly) in order of complexity of the lambda cube. We detour by some other seminal calculi, and if one is missing by all means please add it!
+The following list of language proceeds (roughly) in order of complexity of the [lambda cube](https://en.wikipedia.org/wiki/Lambda_cube). We detour by some other seminal calculi, and if one is missing by all means please add it!
 
 ### Languages
 
@@ -46,12 +46,12 @@ The following list of language proceeds (roughly) in order of complexity of the 
 6. [_Mu_](https://github.com/lukeg101/lplzoo/tree/master/Mu/): Michel Parigot's [Lambda-Mu](https://www.cs.ru.nl/~freek/courses/tt-2011/papers/parigot.pdf). In essence it's STLC with [continuations](https://en.wikipedia.org/wiki/Continuation) that don't rely on the reduction strategy used.
 7. [_SystemF_](https://github.com/lukeg101/lplzoo/tree/master/SystemF/): John Reynolds' [System F](https://en.wikipedia.org/wiki/System_F). In essence it's STLC with [parametric polymorphism](https://en.wikipedia.org/wiki/Parametric_polymorphism) built in.
 8. [_SOL_](https://github.com/lukeg101/lplzoo/tree/master/SOL/): John Mitchell and Gordon Plotkin's SOL. In essence it's System F but with [existential types](https://medium.com/@stephenebly/an-introduction-to-existential-types-25c130ba61a4) made explicit.
-8. [_Cata_](https://github.com/lukeg101/lplzoo/tree/master/Cata/): In essence it's STLC with [inductive types](https://en.wikipedia.org/wiki/Inductive_type). 
-9. [_Ana_](https://github.com/lukeg101/lplzoo/tree/master/Ana/): In essence it's STLC with [coinductive types](https://en.wikipedia.org/wiki/Coinduction).
-10. [_Sub_](https://github.com/lukeg101/lplzoo/tree/master/Sub/): Benjamin Pierce's Lambda Calculus with Subtypes. In essence it's STLC with generalised records and [subtype polymorphism](https://en.wikipedia.org/wiki/Subtyping).
-11. [_Omega_](https://github.com/lukeg101/lplzoo/tree/master/Omega/): Renardel de Lavalette's [L(or λω)](https://core.ac.uk/download/pdf/82628447.pdf). In essence it's STLC with kinding and [type-operators](https://en.wikipedia.org/wiki/Type_constructor).
-12. [_FOmega_](https://github.com/lukeg101/lplzoo/tree/master/FOmega/): Jean Yves-Girard's [FOmega](https://en.wikipedia.org/wiki/Lambda_cube). In essence it's SystemF + Omega which enables higher-order polymorphism.
-
+9. [_Cata_](https://github.com/lukeg101/lplzoo/tree/master/Cata/): In essence it's STLC with [inductive types](https://en.wikipedia.org/wiki/Inductive_type). 
+10. [_Ana_](https://github.com/lukeg101/lplzoo/tree/master/Ana/): In essence it's STLC with [coinductive types](https://en.wikipedia.org/wiki/Coinduction).
+11. [_Sub_](https://github.com/lukeg101/lplzoo/tree/master/Sub/): Benjamin Pierce's Lambda Calculus with Subtypes. In essence it's STLC with generalised records and [subtype polymorphism](https://en.wikipedia.org/wiki/Subtyping).
+12. [_Omega_](https://github.com/lukeg101/lplzoo/tree/master/Omega/): Renardel de Lavalette's [L(or λω)](https://core.ac.uk/download/pdf/82628447.pdf). In essence it's STLC with kinding and [type-operators](https://en.wikipedia.org/wiki/Type_constructor).
+13. [_FOmega_](https://github.com/lukeg101/lplzoo/tree/master/FOmega/): Jean Yves-Girard's [FOmega](https://en.wikipedia.org/wiki/Lambda_cube). In essence it's SystemF + Omega which enables higher-order polymorphism.
+14. [_LF_](LF/): Bob Harper, Furio Honsell, and Gordon Plotkin's [Edinburgh Logical Framework](https://dl.acm.org/citation.cfm?id=138060). In essence it's STLC with pure first-order [dependent types](https://en.wikipedia.org/wiki/Dependent_type).
 See each [repo](https://github.com/lukeg101/lplzoo/) for details on installation/use.
 
 ### Contributions
