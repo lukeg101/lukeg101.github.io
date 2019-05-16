@@ -51,7 +51,7 @@ The following list of language proceeds (roughly) in order of complexity of the 
 11. [_Sub_](https://github.com/lukeg101/lplzoo/tree/master/Sub/): Benjamin Pierce's Lambda Calculus with Subtypes. In essence it's STLC with generalised records and [subtype polymorphism](https://en.wikipedia.org/wiki/Subtyping).
 12. [_Omega_](https://github.com/lukeg101/lplzoo/tree/master/Omega/): Renardel de Lavalette's [L(or λω)](https://core.ac.uk/download/pdf/82628447.pdf). In essence it's STLC with kinding and [type-operators](https://en.wikipedia.org/wiki/Type_constructor).
 13. [_FOmega_](https://github.com/lukeg101/lplzoo/tree/master/FOmega/): Jean Yves-Girard's [FOmega](https://en.wikipedia.org/wiki/Lambda_cube). In essence it's SystemF + Omega which enables higher-order polymorphism.
-14. [_LF_](LF/): Bob Harper, Furio Honsell, and Gordon Plotkin's [Edinburgh Logical Framework](https://dl.acm.org/citation.cfm?id=138060). In essence it's STLC with pure first-order [dependent types](https://en.wikipedia.org/wiki/Dependent_type).
+14. [_LF_](https://github.com/lukeg101/lplzoo/tree/master/LF): Bob Harper, Furio Honsell, and Gordon Plotkin's [Edinburgh Logical Framework](https://dl.acm.org/citation.cfm?id=138060). In essence it's STLC with pure first-order [dependent types](https://en.wikipedia.org/wiki/Dependent_type).
 See each [repo](https://github.com/lukeg101/lplzoo/) for details on installation/use.
 
 ### Contributions
