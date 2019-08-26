@@ -3,7 +3,7 @@ title: LukeGeeson
 email: mail@lukegeeson.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal site.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "https://lukegeeson.com" # the subpath of your site, e.g. /blog/
 url: "https://lukegeeson.com" # the base hostname & protocol for your site
 enforce_ssl: lukegeeson.com
 twitter_username: lukegeeson
