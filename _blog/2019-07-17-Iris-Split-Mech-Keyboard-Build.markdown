@@ -21,6 +21,10 @@ I've been experimenting with ergonomic set-ups and the wonders of mechanical key
 
 In this blog I'll talk about my experience building my first mechanical keyboard. I'll cover my aims (and constraints) for the build, followed by a build log, before finishing with some comments and further work. 
 
+But first a handy link:
+
+- [Iris Mech Build](https://github.com/lukeg101/Iris-Mech-Build) Repo for Everything related to this Build
+
 ### Aims, Constraints, & Components
 
 #### Aims
