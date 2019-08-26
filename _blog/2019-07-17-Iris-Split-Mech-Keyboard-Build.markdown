@@ -435,8 +435,8 @@ As for my lacquering skills there is plenty of room for improvement. I had never
 
 <div class="img_col">
 	<center>
-	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/iris01.JPG" alt="lacquering in a bowl" title="lacquering in a bowl"/>
-	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/iris02.JPG" alt="plate with patina attempt 2" title="plate with patina attempt 2"/>
+	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/iris01.jpg" alt="lacquering in a bowl" title="lacquering in a bowl"/>
+	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/iris02.jpg" alt="plate with patina attempt 2" title="plate with patina attempt 2"/>
 	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/iris04.jpg" alt="patina on the plates." title="patina on the plates."/>
 	<img class="one" src="{{ site.baseurl }}/{{ page.imgpath }}/iris25.jpg" alt="flaking and patina" title="flaking and patina"/>
 	</center>
