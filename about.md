@@ -8,10 +8,11 @@ imgpath: about
 <img class="col one right" src="/img/{{ page.imgpath }}/prof_pic.jpg" alt="me at trinity college, oxford">
 
 <br/>
-I am a Compiler Engineer at Arm in Cambridge, United Kingdom. I work on the Open Source [LLVM](https://llvm.org/) compiler, formal validation, and testing of specifications.
+I am a PhD student at University College London, focusing on compiler validation/verification with formal memory models in the context of relaxed memory and concurrency. My PhD is funded by Arm and I am supervised by Jade Alglave and Lee Smith.
 
-I did my Computer Science Masters at the University of Oxford and completed my Bachelors in Computer Science at the University of Nottingham. I am passionate about Programming Languages, Functional Programming, Compilers and Computer Science theory in general. 
+Previously I was a Compiler Engineer at Arm in Cambridge, where I worked on the Open Source [LLVM](https://llvm.org/) compiler, Arm Compiler, and system validation/verification, and testing of compilers using executable architecture specifications and formal memory models. I did my Computer Science Masters at the University of Oxford and completed my Bachelors in Computer Science at the University of Nottingham.
 
-I am interested in Validation, Metaprogramming, Algebraic Effects, Compilers and Compiler Verification using formal methods. My Masters Thesis combined these fields in an attempt to fix correctness specifications for Functional Compilers. 
+In my spare time I like all things coffee, skydiving, mechanical keyboards, and learning new things. See my blog for more. Previously I was involved in the hackathon community and I used to play guitar. Let me know if you know how to get out of the minor pentatonic rut!
+
 
 
