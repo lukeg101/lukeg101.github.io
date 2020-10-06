@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Testing Compiler Correctness with  Téléchat@Arm Research Summit 2020
+title: Testing Compiler Correctness with  Téléchat@Arm Research Summit 2020
 date: 2020-09-09
 description: Video Presentation and Poster
 ---
