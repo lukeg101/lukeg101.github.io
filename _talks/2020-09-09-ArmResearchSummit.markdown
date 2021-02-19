@@ -9,7 +9,10 @@ I prepared a video presentation and attended a poster session at the first [Virt
 
 A copy of the poster can be found [here](https://community.arm.com/developer/research/m/resources/991)
 
-Please contact me if you would like a link to the video presentation - it is not hosted in a central place.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xn4jtXOGfKg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Arm Research uploaded the video presentation [here](https://www.youtube.com/watch?v=xn4jtXOGfKg)
+
 
 with the abstract repeated here:
 
