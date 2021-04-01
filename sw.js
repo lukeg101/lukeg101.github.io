@@ -53,17 +53,3 @@ self.addEventListener('fetch', function(event) {
   );
 });
 
-// remove old caches when cache name updates
-self.addEventListener('activate', function(event) {
-  event.waitUntil((async () => {
-    const cacheNames = await caches.keys();
-
-    await Promise.all(cacheNames.map(async (cacheName) => {
-      if (self.cacheName !== cacheName) {
-        await caches.delete(cacheName);
-      }
-    }));
-  })());
-});
-
-
