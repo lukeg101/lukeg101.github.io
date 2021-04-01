@@ -60,7 +60,6 @@ self.addEventListener('activate', function(event) {
 
     await Promise.all(cacheNames.map(async (cacheName) => {
       if (self.cacheName !== cacheName) {
-        console.log('deleting old cache:' + cacheName);
         await caches.delete(cacheName);
       }
     }));
