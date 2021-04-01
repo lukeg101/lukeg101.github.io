@@ -14,7 +14,7 @@ var urlsToCache = [];
   urlsToCache.push("{{ talk.url }}")
 {% endfor %}
 
-var CACHE_NAME = "Luke-Geeson-cache-{{ site.github.build_revision }}";
+var CACHE_NAME = "Luke-Geeson-cache-v2";
 
 self.addEventListener('install', function(event) {
   // Perform install steps
