@@ -54,3 +54,22 @@ self.addEventListener('fetch', function(event) {
   );
 });
 
+function clearCaches() {
+  return caches.keys().then(function(keys) {
+    return Promise.all(keys.filter(function(key) {
+        return key.indexOf(version) !== 0;
+      }).map(function(key) {
+        return caches.delete(key);
+      })
+    );
+  })
+}
+
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    clearCaches().then( () => {
+      return self.clients.claim();
+    })
+  );
+});
+
