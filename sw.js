@@ -14,6 +14,7 @@ var urlsToCache = [];
   urlsToCache.push("{{ talk.url }}")
 {% endfor %}
 
+// local cache based on commit id - updates with new content
 var CACHE_NAME = "Luke-Geeson-cache-{{ site.github.build_revision }}";
 
 self.addEventListener('install', function(event) {
