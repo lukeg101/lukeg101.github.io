@@ -31,13 +31,14 @@ collections:
 
 future: true
 
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll
   - github-pages
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-github-metadata
 
 social:
   - links:

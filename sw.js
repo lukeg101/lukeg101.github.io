@@ -14,7 +14,7 @@ var urlsToCache = [];
   urlsToCache.push("{{ talk.url }}")
 {% endfor %}
 
-var CACHE_NAME = 'Luke-Geeson-cache-v1';
+var CACHE_NAME = 'Luke-Geeson-cache-' + {{ site.github.build_revision }};
 
 self.addEventListener('install', function(event) {
   // Perform install steps
@@ -27,6 +27,7 @@ self.addEventListener('install', function(event) {
   );
 });
 
+// If caches return item from cache, otherwise fetch
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.open(CACHE_NAME).then(function(cache) {
@@ -40,6 +41,7 @@ self.addEventListener('fetch', function(event) {
   );
 });
 
+// update cache with new fetch
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.open(CACHE_NAME).then(function(cache) {
@@ -50,4 +52,19 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
+
+// remove old caches when cache name updates
+self.addEventListener('activate', function(event) {
+  event.waitUntil((async () => {
+    const cacheNames = await caches.keys();
+
+    await Promise.all(cacheNames.map(async (cacheName) => {
+      if (self.cacheName !== cacheName) {
+        console.log('deleting old cache:' + cacheName);
+        await caches.delete(cacheName);
+      }
+    }));
+  })());
+});
+
 
