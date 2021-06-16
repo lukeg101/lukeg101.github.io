@@ -8,7 +8,7 @@ imgpath: about
 <img class="col one right" src="/img/{{ page.imgpath }}/prof_pic.jpg" alt="me at trinity college, oxford">
 
 <br/>
-I am a PhD student at [University College London](https://www.ucl.ac.uk) in the [PPLV](http://pplv.cs.ucl.ac.uk/welcome/) group. My focus is on on compiler validation/verification with formal memory (consistecy) models in the context of relaxed memory and concurrency. My PhD is funded by [Arm](https://www.arm.com) and I am supervised by Jade Alglave, Lee Smith, and Byron Cook.
+I am a PhD student at [University College London](https://www.ucl.ac.uk) in the [PPLV](http://pplv.cs.ucl.ac.uk/welcome/) group. My PhD topic is Translation Validation for Weak Memory Models. My PhD is funded by [Arm](https://www.arm.com) as part of an EPSRC iCase studentship. I am supervised by Jade Alglave, Lee Smith, and Byron Cook.
 
 Previously I was a Compiler Engineer at Arm in Cambridge, where I worked on the Open Source [LLVM](https://llvm.org/) compiler, Arm Compiler, and system validation/verification, and testing of compilers using executable architecture specifications, SMT solvers, and formal memory models. I obtained my Masters in Computer Science Masters from the University of Oxford and my Bachelors in Computer Science at the University of Nottingham.
 
@@ -18,6 +18,9 @@ In my spare time I like all things coffee, skydiving, mechanical keyboards, and 
 
 - [CAV 2021](http://i-cav.org/2021/organization/): Artifact Evaluation Committee
 
+### Awards
+
+- [EPSRC iCase PhD Studentship](https://epsrc.ukri.org/skills/students/industrial-case/intro/): 4-years industrial PhD co-funded by Arm
 
 
 
